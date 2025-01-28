@@ -8,7 +8,7 @@ class Stack1
         top = -1;
     }
     void push(int item)
-    { 
+    {
         if(top>stck.length-1)
      {
         System.out.println("Stack is full");
@@ -55,3 +55,4 @@ public class Practical3
     System.out.println("Top element:"+s1.peek());
 }
 }
+
